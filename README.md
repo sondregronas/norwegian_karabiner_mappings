@@ -1,5 +1,3 @@
-The first set of Norwegian (Bokmål) PC keyboard mappings for Mac that doesn't suck
-
 ## Prerequisites
 
 [Karabiner elements](https://karabiner-elements.pqrs.org/)
