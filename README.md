@@ -1,4 +1,4 @@
-## Prerequisites
+## Requirements
 
 [Karabiner elements](https://karabiner-elements.pqrs.org/)
 
