@@ -12,7 +12,7 @@ brew install --cask karabiner-elements
 
 #### Open (copy/paste) the following in your browser
 ```
-karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/root4loot/norwegian_karabiner_mappings/master/Norwegian_PC_Keyboard_Mappings.json
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/root4loot/norwegian_karabiner_mappings/master/mappings.json
 ```
 
 #### Click "Open Karabiner-Elements"   
