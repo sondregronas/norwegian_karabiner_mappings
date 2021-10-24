@@ -6,7 +6,7 @@
 brew install --cask karabiner-elements
 ```
 
-## Installing
+## Installation
 
 #### Open (copy/paste) the following in your browser
 ```
