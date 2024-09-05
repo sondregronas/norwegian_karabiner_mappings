@@ -2,6 +2,83 @@
   "title": "Norwegian PC Layout",
   "rules": [
     {
+      "description": "Spotlight from windows_key",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "] from right-alt + 9",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "[ from right-alt + 8",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "@ from right-alt + 2",
       "manipulators": [
         {
@@ -9,7 +86,7 @@
             "key_code": "2",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
@@ -30,7 +107,7 @@
             "key_code": "4",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
@@ -54,7 +131,7 @@
             "key_code": "5",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
@@ -97,7 +174,7 @@
             "key_code": "7",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
@@ -122,7 +199,7 @@
             "key_code": "0",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
@@ -147,7 +224,7 @@
             "key_code": "equal_sign",
             "modifiers": {
               "mandatory": [
-                "right_alt"
+                "right_command"
               ]
             }
           },
